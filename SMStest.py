@@ -99,8 +99,8 @@ while True:
                         #register new user on radius 
                         sendRadius(username,password)
 			#sending password 
-			msg="Welcome to Luigi Ferraris WiFi !\r"               \
-                            "Username: " +username+ "\r"                     \
+			msg="Welcome to the Stadium WiFi !\r" \
+                            "Username: " +username+ "\r"      \
                             "Password: " +password+ "\r"
                         sendSMS(tel[count],msg)
 		else:
